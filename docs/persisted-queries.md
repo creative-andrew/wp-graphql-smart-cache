@@ -99,6 +99,10 @@ Then I could use that Alias Name as the value of the `queryId` and execute the s
 
 **NOTE:** Alias names must be unique across all GraphQL Documents. You cannot have 2 GraphQL Documents with the same alias name (manually entered or automatically generated).
 
+### Query Variables
+
+Persisted queries supports variables that can passed included i the query string: `queryId=getPostById&variables={“id”:”yourId”}`
+
 #### Allow / Deny Rules
 
 Saved GraphQL Documents can have allow/deny rules applied to them.
